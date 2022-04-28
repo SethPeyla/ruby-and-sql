@@ -36,7 +36,7 @@ jeff = Contact.find_by({"first_name" => "Jeff", "last_name" => "Bezos"})
 
 activity = Activity.new
 activity["salesperson_id"] = ben["id"]
-activity["contact_id"] = tim["id"]
+activity["contact_id"] = jeff["id"]
 activity["note"] = "met at Blue Origin HQ"
 activity.save
 
