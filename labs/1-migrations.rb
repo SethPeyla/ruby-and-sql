@@ -17,7 +17,7 @@
 #   for Activity.
 
 # 1. in terminal, generate a model and table for ______
-# rails generate model _____
+# rails generate model Salesperson
 
 # 2. open newly generated files
 
